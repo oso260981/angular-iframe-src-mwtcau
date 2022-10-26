@@ -7,7 +7,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class AppComponent {
   name = 'Set iframe source';
-  url: string = 'https://looker.isrstoreintelligence.online/taxtools.html';
+  url: string = 'https://app.powerbi.com/reportEmbed?reportId=3023830d-ffe2-48ba-924e-44951559b6a1&autoAuth=true&ctid=2b60f742-477e-42f8-a7ad-3621d21bc607&filterPaneEnabled=false&navContentPaneEnabled=false';
   urlSafe: SafeResourceUrl;
 
   constructor(public sanitizer: DomSanitizer) {}
